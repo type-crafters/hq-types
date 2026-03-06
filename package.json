@@ -1,0 +1,19 @@
+{
+    "name": "@typecrafters/hq-types",
+    "version": "0.1.0",
+    "description": "Interfaces & Categoric enums for application requests and responses",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "prepare": "tsc"
+    },
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^25.3.2",
+        "typescript": "^5.9.3"
+    }
+}
